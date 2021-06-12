@@ -1,4 +1,17 @@
-.container {
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-row {
+background-color: rgb(255, 255, 255);
+width: 500px;
+display: flex;
+flex-direction: row;
+align-items: center;
 
 }
 h4, p {
@@ -6,23 +19,54 @@ h4, p {
 }
 .first-row {
     padding: 0 20px 0 20px;
+    margin: 10px 0 10px 0;
     display: flex;
     /* flex-direction: row; */
     align-items: center;
     /* justify-content: space-around; */
 }
+.second-row {
+    background-color: rgb(255, 255, 255);
+}
 
 .column1 {
   padding-right: 10px;
-}
-
-.column2 {
 
 }
 .column3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: right;
-    
+    margin-left: auto;
+    margin-right: 10px;
 }
+.photo-post {
+    width: 500px;
+    height: auto; /* Responsive purpose */
+
+}
+
+.third-row {
+    background-color: rgb(255, 255, 255);
+width: 500px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.third-row-column1 {
+    padding: 10px;
+    margin-top: 0%;
+ 
+}
+.third-row-column2 {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.four-row {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.last-p {
+    padding: 5px 10px 10px 10px;
+}
+
